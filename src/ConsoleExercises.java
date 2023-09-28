@@ -48,7 +48,7 @@ public class ConsoleExercises {
         System.out.println("Enter a height: ");
         String heightStr = scanner3.nextLine();
         int heightNum = Integer.parseInt(heightStr);
-        System.out.println(heightStr);git
+        System.out.println(heightStr);
 
 //        v = l * w * h
         int volume = lengthNum * widthNum * heightNum;
