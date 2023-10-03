@@ -133,5 +133,28 @@ public class practice {
             j--;
         }
 
+        //String Manipulation
+        String pumpkin = "pumpkin";
+        String pie = "pie";
+
+        System.out.println(pie.equals(pumpkin));
+
+        String ironMan = "Iron Man";
+        System.out.println(ironMan.startsWith("I"));
+        System.out.println(ironMan.endsWith("man"));
+        System.out.println(ironMan.charAt(0));
+        System.out.println(ironMan.indexOf(" ")); //gets the whitespace
+        System.out.println(ironMan.lastIndexOf("n")); //type in letter wanted in ()
+        //System.out.println(ironMan.charAt("ironMan.indexOf("M")"));
+
+        System.out.println(ironMan.replace("Man", "Guy"));  //the original iron man staus the same if i want to makwe a permanant change i would need to redeclare it.
+
+        String ironGuy = ironMan.replace("Man", "Guy");
+        System.out.println(ironGuy);
+
+        //using substring
+        System.out.println(ironMan.substring(4));
+        System.out.println(ironGuy.substring(1, 4));
+
     }
 }
