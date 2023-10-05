@@ -45,11 +45,11 @@ public class Input {
         return userInput;
     }
 
-    public double getDouble(String prompt){
-        System.out.println(prompt);
-        double userInput = scanner.nextDouble();
-        return userInput;
-    }
+//    public double getDouble(String prompt){
+//        System.out.println(prompt);
+//        double userInput = scanner.nextDouble();
+//        return userInput;
+//    }
 
     // When an instance of this object is created, the scanner property should be set to a new instance of the Scanner class.
     public Input(){
