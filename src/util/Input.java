@@ -27,6 +27,10 @@ public class Input {
         return userInput;
     }
 
+    public int getIntChoice() {
+        return scanner.nextInt();
+    }
+
     public int getInt(int min, int max) {
         String prompt = "Enter an integer between " + min + " and " + max;
         System.out.println(prompt);
