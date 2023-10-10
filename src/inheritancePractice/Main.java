@@ -23,3 +23,4 @@ public class Main {
 //now we can print and run the method and it should display the go method list in the parent vehicle
 
 //The Benefit of inheritance is we don't need to list the methods and attributes twice making code less redundant. and we can give the two subclasses their own specific identifiers.
+

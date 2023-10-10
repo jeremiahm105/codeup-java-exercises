@@ -26,3 +26,6 @@ public abstract class Vehicle {
 //vehicle class knwon as super class--the bicycle and car class are considered sub-classes.
 
 //vehicle is an ancestor giving inheritance to its descendents.
+
+//the subclass uses constructors syntax;
+//public String name;
