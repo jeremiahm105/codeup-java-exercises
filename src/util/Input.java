@@ -20,11 +20,22 @@ public class Input {
         String answer = scanner.next();
         return answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("yes");
     }
+    //Original
+//    public int getInt(){
+//        System.out.println("Enter an integer:");
+//        int userInput = scanner.nextInt();
+//        return userInput;
+//    }
 
-    public int getInt(){
-        System.out.println("Enter an integer:");
-        int userInput = scanner.nextInt();
-        return userInput;
+    //Error Handling Exercise
+    public int getInt() {
+        try {
+        String input = scanner.next();
+            return Integer.valueOf(input);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input. Please enter an integer.");
+            return getInt();
+        }
     }
 
     public int getIntChoice() {
@@ -42,18 +53,28 @@ public class Input {
 
         return userInput;
     }
+    //Original
+//    public double getDouble(){
+//        System.out.println("Enter a number:");
+//        double userInput = scanner.nextDouble();
+//        return userInput;
+//    }
 
-    public double getDouble(){
-        System.out.println("Enter a number:");
+    public double getDouble(String prompt){
+        System.out.println(prompt);
         double userInput = scanner.nextDouble();
         return userInput;
     }
 
-//    public double getDouble(String prompt){
-//        System.out.println(prompt);
-//        double userInput = scanner.nextDouble();
-//        return userInput;
-//    }
+    public double getDouble() {
+        try {
+        String input = scanner.next();
+            return Double.valueOf(input);
+        } catch(NumberFormatException e) {
+            System.out.println("Invalid input. Please enter a double.");
+            return getDouble();
+        }
+    }
 
     // When an instance of this object is created, the scanner property should be set to a new instance of the Scanner class.
     public Input(){
