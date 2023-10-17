@@ -8,7 +8,7 @@ public class Human {
 
     //So when creating a instance of this class its going to call the constructor like a method
     //Now anything in the constructor will be called like its a method.
-    //Now we can set up parameters and arguments when we create our object placed in the parenthesis
+    //Now we can set up parameters and arguments when we create our object placed in the prarenthsis
     //Parameter syntax in paren is: datatype property name.
 
     //Declare the arguments to class above the instance with just the datatype and property

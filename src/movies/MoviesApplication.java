@@ -45,3 +45,5 @@ public class MoviesApplication {
     }
 
 }
+
+//In java Create an `Assessment` class with a public static method named `half`. It should accept a number and return the number divided by two.
